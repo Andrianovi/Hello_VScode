@@ -1,0 +1,229 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*-------------------*/
+
+/*.obhii {
+	height: 1503px;
+	width: 1190px;
+	background-image: url('../img/light-man-copy.png'), url('../img/layer-1.png'), url('../img/ellipse-1-copy.png');
+	background-repeat: no-repeat;
+	background-position: 157px 262px , 147px 252px , 0 0;
+	background-size: 821px 541px, 841px 561px, 1190px 1064px;
+}*/
+
+.obhii {
+	height: 1503px;
+	width: 1190px;
+	background-image: url('../img/ellipse-1-copy.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 1190px 1064px;
+}
+
+.obhii1 {
+		height: 561px;
+	width: 841px;
+	margin: 77px 0 0 147px;
+background-color: #fff;
+}
+
+.fon {
+			height: 541px;
+	width: 821px;
+	padding: 10px;
+
+
+}
+
+.text1 {
+	display: inline-block;
+	height: 14px;
+	width: 67px;
+	margin: 62px 0 0px 529px;
+	font-size: 24px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	letter-spacing: 2.8px;
+	color: rgba(39, 61, 70, 0.6);
+	text-transform: uppercase;
+
+}
+h1{
+	display: inline-block;
+	height: 75px;
+	width: 721px;
+	margin: 28px 0 0px 205px;
+	font-size: 36px;
+	font-family: TimesNewRomanPSMT;
+	line-height: 50px;
+	text-align: center;
+	color: #273d46;
+
+
+}
+.text3 {
+	display: inline-block;
+	height: 267px;
+	width: 736px;
+	margin: 97px 0 0px 192px;
+	font-size: 24px;
+	font-family: TimesNewRomanPSMT;
+	line-height: 40px;
+	text-align: left;
+	color: rgba(39, 61, 70, 0.8);
+
+}
+.text4 {
+	display: inline-block;
+	height: 20px;
+	width: 463px;
+
+	background-image: url('../img/check-icon.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 25px 19px;
+
+	margin: 62px 0 0px 188px;
+	padding: 0 0 0 37px;
+	font-size: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: left;
+	color: #273d46;
+
+}
+.text5 {
+	display: inline-block;
+	height: 20px;
+	width: 374px;
+
+	background-image: url('../img/check-icon.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 25px 19px;
+
+	margin: 13px 0 0px 188px;
+	padding: 0 0 0 36px;
+	font-size: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style: italic;
+	text-align: left;
+	color: #80b7b3;
+
+}
+.text6 {
+	display: inline-block;
+	height: 20px;
+	width: 416px;
+
+	background-image: url('../img/check-icon.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 25px 19px;
+
+	margin: 17px 0 0px 188px;
+	padding: 0 0 0 34px;
+	font-size: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	
+	text-align: left;
+	color: #273d46;
+
+
+
+
+}
+.text7 {
+	display: inline-block;
+	height: 20px;
+	width: 436px;
+
+	background-image: url('../img/check-icon.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 25px 19px;
+
+	margin: 16px 0 0px 188px;
+	padding: 0 0 0 34px;
+	font-size: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-decoration: line-through;
+	text-align: left;
+	 color: rgba(39, 61, 70, 0.3);
+
+
+
+
+}
+
+
+
+
+.button {
+	height: 44px;
+	width: 199px;
+	background-color: rgba(128, 183, 179, 0.54);
+	border-radius: 22px;
+	margin: 59px 0 0px 188px;
+}
+.button1 {
+	display: inline-block;
+	height: 14px;
+	width: 114px;
+	margin: 15px 0 15px 30px;
+	font-size: 14px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	letter-spacing: 2.8px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+
+
+.strelka {
+	display: inline-block;
+	height: 14px;
+	width: 21px;
+	margin: 15px 0 15px 11px;
+}
+
+
+
+
+
+
+
+
