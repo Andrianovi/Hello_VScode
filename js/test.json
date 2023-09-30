@@ -1,0 +1,14 @@
+{
+	"name": "Sergei",
+	"age": 44,
+	"sex": "male",
+	"iin": 4546,
+	"phone": [
+		"+38050889988",
+		"+790766553535"
+	],
+	"email": {
+		"gmail": "serg@gmail.com",
+		"yahoo": "serg@yahoo.com"
+	}
+}
